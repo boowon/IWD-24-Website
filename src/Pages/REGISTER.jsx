@@ -1,5 +1,5 @@
 
-function REGISTER() {
+function Register() {
   return (
     <div>
       <h1>REGISTER</h1>
@@ -7,4 +7,4 @@ function REGISTER() {
   );
 }
 
-export default REGISTER;
+export default Register;
