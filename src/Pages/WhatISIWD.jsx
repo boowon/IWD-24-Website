@@ -1,5 +1,5 @@
 
-function WhatISIWD() {
+function WhatIsIWD() {
     return (
         <div>
             <h1>What is IWD?</h1>
@@ -7,4 +7,4 @@ function WhatISIWD() {
     );
 }
 
-export default WhatISIWD;
+export default WhatIsIWD;

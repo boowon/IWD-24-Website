@@ -1,4 +1,4 @@
-function QUIZ() {
+function Quiz() {
   return (
     <div>
       <h1>QUIZ</h1>
@@ -7,4 +7,4 @@ function QUIZ() {
 }
 
 
-export default QUIZ;
+export default Quiz;
