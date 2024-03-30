@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
-import WhatISIWD from './Pages/WhatIsIWD';
+import WhatISIWD from './Pages/WhatISIWD';
 import FAQ from './Pages/FAQ';
 import Quiz from './Pages/QUIZ';
 import Register from './Pages/REGISTER';
