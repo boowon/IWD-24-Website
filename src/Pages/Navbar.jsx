@@ -13,7 +13,7 @@ function Navbar({activeSection}) {
   };
 
   return (
-    <nav className="bg-white sticky w-[100%] top-0 z-50  font-montserrat text-2xl font-medium">
+    <nav className="sticky w-[100%] top-0 z-50  font-montserrat text-2xl font-medium">
       <div className=" pt-5 px-4 lg:py-10 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
         <div className="hidden lg:block flex-shrink-0">
