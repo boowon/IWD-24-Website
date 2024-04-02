@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
