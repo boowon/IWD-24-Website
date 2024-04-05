@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import wtm from '/WTM.svg'
 import wtmshort from '/wtm-short.svg'
 import menu from '/ion_menu.svg'
 
 
 
+// eslint-disable-next-line react/prop-types
 function Navbar({activeSection}) {
   const [isOpen, setIsOpen] = useState(false);
 

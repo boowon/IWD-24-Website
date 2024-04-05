@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from 'react';
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+import  { useState, useEffect } from 'react';
 import TimingBox from './Timing.box';
 
 export default function CountdownTimer({ targetDate }) {

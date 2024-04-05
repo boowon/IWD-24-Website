@@ -1,4 +1,5 @@
-import React from 'react'
+/* eslint-disable react/prop-types */
+//import React from 'react'
 
 export default function CountdownCard({ time, type, color }) {
   return (

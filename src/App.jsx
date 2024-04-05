@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
 import WhatISIWD from './Pages/WhatISIWD';
+import PastEdit from './Pages/PastEdit';
 import FAQ from './Pages/FAQ';
 import Quiz from './Pages/QUIZ';
 import Register from './Pages/REGISTER';
@@ -39,6 +40,7 @@ function App() {
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
            <WhatISIWD></WhatISIWD>
+           <PastEdit></PastEdit>
            <FAQ></FAQ>
            <Quiz></Quiz>
            <Register></Register>  
