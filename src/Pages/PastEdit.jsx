@@ -1,7 +1,6 @@
 import line from "../assets/pastEdit/line.svg"
 import square from "../assets/pastEdit/square.svg"
 import cloud from "../assets/pastEdit/cloud.svg"
-// import event from "../assets/pastEdit/people-taking-part-business-event.jpg"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -92,4 +91,3 @@ function PastEdit() {
 }
 
 export default PastEdit;
-

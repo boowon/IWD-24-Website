@@ -1,10 +1,10 @@
-function QUIZ() {
+function Quiz() {
   return (
-    <div>
+    <div id="quiz">
       <h1>QUIZ</h1>
     </div>
   );
 }
 
 
-export default QUIZ;
+export default Quiz;

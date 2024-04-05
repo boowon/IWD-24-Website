@@ -1,23 +1,51 @@
-import './App.css';
-import Home from './Pages/Home'
-import WhatISIWD from './Pages/WhatISIWD'
-import PastEdit from './Pages/PastEdit'
-import FQA from './Pages/FQA'
-import QUIZ from './Pages/QUIZ'
-import REGISTER from './Pages/REGISTER'
-
+/* eslint-disable no-unused-vars */
+import React, { useState, useEffect } from 'react';
+import Home from './Pages/Home';
+import Navbar from './Pages/Navbar';
+import WhatISIWD from './Pages/WhatISIWD';
+import PastEdit from './Pages/PastEdit';
+import FAQ from './Pages/FAQ';
+import Quiz from './Pages/QUIZ';
+import Register from './Pages/REGISTER';
 
 function App() {
-  return (
-    <div className='iwd24'>
-      <Home />
-      <WhatISIWD />
-      <PastEdit />
-      <FQA />
-      <QUIZ />
-      <REGISTER />
-    </div>
-  );
+    const [activeSection, setActiveSection] = useState('quiz');
+
+    useEffect(() => {
+        const sections = document.querySelectorAll("div[id]");
+      
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveSection(entry.target.id);
+            }
+          });
+        }, {
+          rootMargin: "-50% 0px -50% 0px" // Adjust root margin as needed
+        });
+      
+        sections.forEach((section) => {
+          observer.observe(section);
+        });
+      
+        return () => {
+          sections.forEach((section) => {
+            observer.unobserve(section);
+          });
+        };
+    }, []);
+
+    return (
+        <div className=''>
+           <Navbar activeSection={activeSection}></Navbar>
+           <Home></Home>
+           <WhatISIWD></WhatISIWD>
+           <PastEdit></PastEdit>
+           <FAQ></FAQ>
+           <Quiz></Quiz>
+           <Register></Register>  
+        </div>
+    );
 }
 
 export default App;
