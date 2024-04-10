@@ -2,8 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Home from './Pages/Home';
 import Navbar from './Pages/Navbar';
-import WhatISIWD from './Pages/WhatISIWD';
-import PastEdit from './Pages/PastEdit';
+import About from './Pages/About';
 import FAQ from './Pages/FAQ';
 import Quiz from './Pages/QUIZ';
 import Register from './Pages/REGISTER';
@@ -36,11 +35,10 @@ function App() {
     }, []);
 
     return (
-        <div className=''>
+        <div className='flex flex-col justify-stretch'>
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
-           <WhatISIWD></WhatISIWD>
-           <PastEdit></PastEdit>
+           <About></About>
            <FAQ></FAQ>
            <Quiz></Quiz>
            <Register></Register>  

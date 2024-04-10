@@ -5,7 +5,6 @@ import green from '/green.svg'
 import world from '/world.svg'
 import line1 from '/line-1.svg'
 import line2 from '/line-2.svg'
-
 import map from '/map.svg'
 import {motion} from 'framer-motion'
 
@@ -15,7 +14,7 @@ export default function Home() {
         const iwdDay = new Date(Date.UTC(2024, 3, 27, 15));
 
   return (
-    <div id='home' className='flex flex-col lg:gap-9 h-[100vh] overflow-hidden font-montserrat relative'>
+    <div id='home' className='md:pt-[100px] flex flex-col lg:gap-9 overflow-hidden font-montserrat justify-stretch relative'>
         <div className="flex flex-col relative lg:hidden justify-end items-end ">
                 <img className=' -z-50' src={line1} alt="" />
                 <motion.img      

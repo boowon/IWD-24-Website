@@ -40,15 +40,15 @@ const settings = {
 
 function PastEdit() {
   return (
-    <div id="pastedit" className="  font-montserrat  ">
-      <div className=" w-1/4 lg:w-1/2 ml-6">
-        <div className="flex flex-col relative justify-end items-start px-12 py-0 m-0">
+    <div className=" font-montserrat">
+      <div className=" w-screen lg:w-1/2 ml-6 lg:block flex flex-col items-center">
+        <div className="hidden lg:flex flex-col relative justify-end items-start px-12 py-0 m-0">
           <img className='-z-50 lg:w-[421px] lg:h-[147px] w-full h-full ' src={line} alt="" />
           
         </div>
         <div className=" -z-50 ml-[1.3rem] flex items-center mt-1 justify-between lg:w-[60%] w-full ">
-          <img className='w-[26px] h-[23px] lg:w-[59px] lg:h-[55px]' src={square} alt="" />
-          <h1 className="font-bold lg:text-4xl text-md ">Our Past Events</h1>
+          <img className='hidden lg:block w-[26px] h-[23px] lg:w-[59px] lg:h-[55px]' src={square} alt="" />
+          <h1 className="font-bold lg:text-4xl text-3xl ">Our Past Events</h1>
         </div>
         
       </div>

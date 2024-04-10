@@ -11,7 +11,7 @@ export default function Register() {
   const iwdDay = new Date(Date.UTC(2024, 3, 27, 15));
 
   return (
-    <div id="register" className="h-screen flex flex-col justify-end overflow-hidden font-montserrat">
+    <div id="register" className="overflow-hidden flex flex-col justify-end font-montserrat">
       <img src={background} alt="background" className="absolute hidden lg:block" />
       <img src={window.innerWidth <= 768 ? iwdmob : earthiwd} alt="earth" className="absolute w-full pl-4 z-0" />
       <div className="flex flex-col h-screen lg:h-auto xl:h-auto 2xl:h-screen items-center justify-center z-10">
