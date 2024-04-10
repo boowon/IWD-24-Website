@@ -35,7 +35,7 @@ function App() {
     }, []);
 
     return (
-        <div className='flex flex-col justify-stretch'>
+        <div>
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
            <About></About>

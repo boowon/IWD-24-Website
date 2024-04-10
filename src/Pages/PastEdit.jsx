@@ -40,7 +40,7 @@ const settings = {
 
 function PastEdit() {
   return (
-    <div className=" font-montserrat">
+    <div className=" font-montserrat overflow-hidden">
       <div className=" w-screen lg:w-1/2 ml-6 lg:block flex flex-col items-center">
         <div className="hidden lg:flex flex-col relative justify-end items-start px-12 py-0 m-0">
           <img className='-z-50 lg:w-[421px] lg:h-[147px] w-full h-full ' src={line} alt="" />
@@ -61,7 +61,7 @@ function PastEdit() {
             return (
               // eslint-disable-next-line react/jsx-key
               <div className=" py-2 px-2 rounded-xl border-2 border-secondaryBlue ">
-                <div className="flex flex-col ">
+                <div className="flex flex-col">
                   <div className="mx-auto md:grid grid-cols-5 gap-4 flex flex-col items-end sm:items-center">
                   <div className="items-center w-full h-auto  md:col-span-2 sm:col-span-2 flex md:p-2  ">
                   <img src={d.pic} alt="" className=" border-2 border-secondaryBlue object-cover lg:h-[70%]"  />
