@@ -13,7 +13,7 @@ function Navbar({activeSection}) {
   }
   return (
     <div>
-      <div className='lg:hidden w-screen fixed z-[1005] top-0 bg-transprent flex justify-between items-center pt-3'>
+      <div className='lg:hidden w-screen overflow-y-hidden fixed z-[1005] top-0 bg-transprent flex justify-between items-center pt-3'>
         <div className="pl-2 block flex-shrink-0">
           <a href="#" className="text-white font-bold text-xl pt-1"> 
             <img className='' src={wtmshort} alt="WTM" />

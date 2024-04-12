@@ -35,7 +35,7 @@ function App() {
     }, []);
 
     return (
-        <div>
+        <div className='overflow-x-hidden w-screen'>
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
            <About></About>

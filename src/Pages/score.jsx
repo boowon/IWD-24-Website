@@ -47,11 +47,11 @@ function ScoreProgress({ score, total }) {
           strokeWidth="15"
           strokeLinecap="round"
           r={radius}
-          cx="8.4%"
-          cy="100%"
+          cx="50%"
+          cy="50%"
           strokeDasharray={circumference}
           strokeDashoffset={circumference - progress}
-          transform="rotate(-90 50 50)" // Rotate the circle to start from the top
+          transform="rotate(-90 50% 50%)" // Rotate the circle to start from the top
         />
         {/* Text */}
         <text x="50%" y="50%" textAnchor="middle" dominantBaseline="middle" className='font-bold'>

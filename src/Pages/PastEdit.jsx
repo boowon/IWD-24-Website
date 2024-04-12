@@ -40,7 +40,7 @@ const settings = {
 
 function PastEdit() {
   return (
-    <div className=" font-montserrat overflow-hidden">
+    <div className=" font-montserrat  w-screen overflow-y-hidden overflow-hidden">
       <div className=" w-screen lg:w-1/2 ml-6 lg:block flex flex-col items-center">
         <div className="hidden lg:flex flex-col relative justify-end items-start px-12 py-0 m-0">
           <img className='-z-50 lg:w-[421px] lg:h-[147px] w-full h-full ' src={line} alt="" />
