@@ -31,7 +31,11 @@ module.exports = {
                 },
                 animation: {
                         'open-menu': 'open-menu 0.5s ease-in-out forwards',
+                },
+                boxShadow: {
+                        'my': '0px 3px 15px rgba(220,220,220, 1)',
                 }
+                
         },
         },
         plugins: [],

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import wtm from '/WTM.svg'
 import wtmshort from '/wtm-short.svg'
 import { useState } from 'react';
@@ -12,7 +13,7 @@ function Navbar({activeSection}) {
   }
   return (
     <div>
-      <div className='lg:hidden w-screen fixed z-[1005] top-0 bg-white flex justify-between items-center pt-3'>
+      <div className='lg:hidden w-screen fixed z-[1005] top-0 bg-transprent flex justify-between items-center pt-3'>
         <div className="pl-2 block flex-shrink-0">
           <a href="#" className="text-white font-bold text-xl pt-1"> 
             <img className='' src={wtmshort} alt="WTM" />
@@ -23,8 +24,8 @@ function Navbar({activeSection}) {
           </div>
         </button>
       </div>
-      <section id="mobile-menu" onClick={toggleMenu} className={`fixed z-[1000] top-0 left-0 lg:hidden w-full h-full bg-white ${isOpen ? 'flex' : 'hidden' } w-full origin-top animate-open-menu flex-col content-evenly items-center justify-evenly text-5xl`}>
-        <nav className="flex absolute min-h-screen flex-col items-center py-8 content-evenly justify-evenly bg-white" aria-label="mobile">
+      <section id="mobile-menu" onClick={toggleMenu} className={`fixed z-[1000] top-0 left-0 lg:hidden w-full h-full bg-white ${isOpen ? 'flex' : 'hidden' } w-full origin-top animate-open-menu flex-col content-evenly items-center justify-center text-5xl`}>
+        <nav className="flex absolute min-h-screen flex-col items-center py-8 content-evenly justify-center gap-4 bg-white" aria-label="mobile">
           <a href="#home" className={activeSection === 'home' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Home</a>
           <hr className='h-1 w-[60vw] border-gray-500'/>
           <a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>        

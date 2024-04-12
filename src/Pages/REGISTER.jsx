@@ -12,7 +12,7 @@ export default function Register() {
 
   return (
     <div id="register" className="overflow-hidden flex flex-col justify-end font-montserrat">
-      <img src={background} alt="background" className="absolute hidden lg:block" />
+      <img src={background} alt="background" className="absolute hidden lg:block overflow-hidden h-[calc(100vh+70px)]" />
       <img src={window.innerWidth <= 768 ? iwdmob : earthiwd} alt="earth" className="absolute w-full pl-4 z-0" />
       <div className="flex flex-col h-screen lg:h-auto xl:h-auto 2xl:h-screen items-center justify-center z-10">
         <div className="font-bold text-5xl xl:text-[100px] text-center xl:mt-20 mt-8 mb-14 xl:mb-20">
