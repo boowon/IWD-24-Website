@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState, useEffect } from 'react';
 import ScoreProgress from './score';
 import ScoreProgressStand from './circlestand';
@@ -40,7 +41,7 @@ function Quizcard(props) {
                     <h3 className='font-bold text-sm'>Score</h3>
                     <br className=''/>
                     <br className=''/>
-                    <div className=' lg:mb-[25%]'>
+                    <div className=' lg:mb-my'>
                     <h1 className='font-bold text-xl lg:text-2xl lg:text-center text-left lg:ml-0 mb-4'>{props.Question}</h1>
                     <ul className='w-full flex flex-col justify-evenly gap-[2vh] items-center'>
                         {props.Answers.map((answer) => (

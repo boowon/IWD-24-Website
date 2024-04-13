@@ -34,7 +34,14 @@ module.exports = {
                 },
                 boxShadow: {
                         'my': '0px 3px 15px rgba(220,220,220, 1)',
-                }
+                },
+                margin:{
+                        'my':'max(10px, 25%)',
+
+                },
+                rotate: {
+                        '270': '270deg',
+                },
                 
         },
         },
