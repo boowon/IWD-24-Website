@@ -26,7 +26,7 @@ function Quizcard(props) {
     };
 
     return (              
-        <div className="lg:w-auto w-2/3 lg:block">
+        <div className={`lg:w-auto w-2/3 flex justify-center items-center align-middle ${props.ShowScore ? '':' lg:mt-[15vh]'}`}>
             {props.ShowScore ? (
                 <>
                 <div className='flex justify-center items-center content-center flex-col'>
@@ -36,18 +36,16 @@ function Quizcard(props) {
                 </>
             ) : (
                 <>
-                <div className='flex justify-center items-center mb-20 flex-col '>
+                <div className='flex justify-center items-center mb-20 flex-col fixed lg:top-[-5vh] '>
                     <ScoreProgressStand score={props.score} total={props.number} />
-                    <h3 className='font-bold text-sm'>Score</h3>
-                    <br className=''/>
-                    <br className=''/>
+                    <h3 className='font-bold text-sm mb-2 lg:mb-0'>Score</h3>
                     <div className=' lg:mb-my'>
-                    <h1 className='font-bold text-xl lg:text-2xl lg:text-center text-left lg:ml-0 mb-4'>{props.Question}</h1>
+                    <h1 className='font-bold text-sm lg:text-lg lg:text-center text-left lg:ml-0 mb-4 ml-1 w-[50vw]'>{props.Question}</h1>
                     <ul className='w-full flex flex-col justify-evenly gap-[2vh] items-center'>
                         {props.Answers.map((answer) => (
                             <li
                                 key={answer}
-                                className={`cursor-pointer bg-white border-transparent py-1 px-8 text-center w-full rounded-3xl shadow-my answers ${answerSelected ? 'disabled' : ''}`}
+                                className={`cursor-pointer text-xs lg:text-sm bg-white border-transparent py-1 px-1 text-center w-[70vw] lg:w-[50vw] rounded-3xl shadow-my answers ${answerSelected ? 'disabled' : ''}`}
                                 id={answer}
                                 onClick={() => checkAnswer(answer)}
                             >

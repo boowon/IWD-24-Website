@@ -11,7 +11,7 @@ import {motion} from 'framer-motion'
 import CountdownTimer from './Countdown.timer'
 
 export default function Home() {
-        const iwdDay = new Date(Date.UTC(2024, 3, 27, 15));
+        const iwdDay = new Date(Date.UTC(2024, 4, 4, 15));
 
   return (
     <div id='home' className=' overflow-y-hidden w-screen md:pt-[100px] flex flex-col lg:gap-9 overflow-hidden font-montserrat justify-stretch relative'>
@@ -36,7 +36,7 @@ export default function Home() {
                 <div className=' text-lg lg:text-2xl xl:text-3xl font-medium'>International Women’s Day 2024</div>
                 <div className="gap-1 hidden lg:flex">
                         <img src={green} alt="green" />
-                        <div className='xl:text-xl lg:text-lg'>April 27, 2024 at ESI Algiers</div>
+                        <div className='xl:text-xl lg:text-lg'>May 4, 2024 at ESI Algiers</div>
                 </div>
         <div className="relative flex justify-center  lg:absolute lg:top-[50%] lg:left-[60%]">
                 <hr className="border-t-2 absolute -z-50 top-[22%] lg:hidden w-screen  border-black my-4" />

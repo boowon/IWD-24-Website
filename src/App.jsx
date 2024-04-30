@@ -38,8 +38,8 @@ function App() {
         <div className='overflow-x-hidden w-screen'>
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
-           <About></About>
-           <FAQ></FAQ>
+           {/*<About></About>
+           <FAQ></FAQ>--->*/}
            <Quiz></Quiz>
            <Register></Register>  
         </div>

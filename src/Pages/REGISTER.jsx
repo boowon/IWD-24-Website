@@ -8,7 +8,7 @@ import CountdownTimer from "./Countdown.timer";
 
 
 export default function Register() {
-  const iwdDay = new Date(Date.UTC(2024, 3, 27, 15));
+  const iwdDay = new Date(Date.UTC(2024, 4, 4, 15));
 
   return (
     <div id="register" className="overflow-hidden w-screen flex flex-col justify-end font-montserrat">
@@ -21,7 +21,7 @@ export default function Register() {
         <div className="flex gap-1 mb-6 xl:mb-10">
           <img src={green} alt="green"/>
           <div className="text-xl text-center">
-            April 27, 2024 at ESI Algiers
+            May 4, 2024 at ESI Algiers
           </div>
         </div>
         <CountdownTimer targetDate={iwdDay}></CountdownTimer>

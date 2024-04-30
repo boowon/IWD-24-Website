@@ -10,40 +10,25 @@ import flower from '../assets/quiz/flower.svg';
 import Quizcard from './Quizcard';
 import QuestionProgress from './lineprocess';
 import Confetti from 'react-confetti';
+import list_of_qst from './list_of_qst';
 
+// Function to shuffle an array
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
 
-const QuizList = [
-  {
-    Question: "What is the capital of Algeria?",
-    Answers: [
-      "Algiers",
-      "Paris",
-      "London",
-      "Berlin"
-    ],
-    CorrectAnswer: "Algiers"
-  },
-  {
-    Question: 'Who are WTM', 
-    Answers : [
-      'Girls',
-      'The best girls',
-      'The best best girls',
-      'The ultimate best girls'
-    ],
-    CorrectAnswer: 'The ultimate best girls'
-  },
-  {
-    Question: 'Where is the local of WTM Algiers',
-    Answers : [
-      'USTHB',
-      'ENS',
-      'ESI',
-      'My Heart'
-    ],
-    CorrectAnswer: 'ESI'
-  }
-];
+// Shuffle the list_of_qst array
+const shuffledQuestions = shuffleArray(list_of_qst);
+
+// Select the first 10 questions
+const selectedQuestions = shuffledQuestions.slice(0, 10);
+
+const QuizList = selectedQuestions;
+
 
 function Quiz() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
