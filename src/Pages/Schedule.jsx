@@ -2,9 +2,10 @@ import React from 'react';
 
 const Schedule = () => {
   return (
-    <div id='agenda' className="max-w-4xl h-screen mx-auto mt-8">
+    <div id='agenda' className="max-w-4xl h-screen mx-auto mt-8 flex justify-center items-center flex-col gap-3">
+      <h1 className="text-4xl font-bold">Agenda</h1>
       <div className="flex flex-col space-y-4">
-        <div className="bg-gray-200 rounded-md p-4">
+        <div className="bg-light-blue rounded-md p-4">
           <h2 className="text-xl font-bold mb-2">Morning Session</h2>
           <ul>
             <li className="flex justify-between">
@@ -16,16 +17,16 @@ const Schedule = () => {
               <span>Talk 1: Navigating the Digital Frontier</span>
             </li>
             <li className="flex justify-between">
-              <span>10:00 - 10:30</span>
               <span>Talk 2: Unveiling the mystery of Quantum Computing</span>
+              <span>10:00 - 10:30</span>
             </li>
             <li className="flex justify-between">
+               <span>Algerian Women in Tech: Opportunities, obstacles and experience sharing</span>
               <span>10:30 - 11:30</span>
-              <span>Algerian Women in Tech: Opportunities, obstacles and experience sharing</span>
             </li>
           </ul>
         </div>
-        <div className="bg-gray-200 rounded-md p-4">
+        <div className="bg-light-blue rounded-md p-4">
           <h2 className="text-xl font-bold mb-2">Afternoon Session</h2>
           <ul>
             <li className="flex justify-between">

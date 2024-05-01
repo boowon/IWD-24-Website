@@ -12,6 +12,11 @@
   --tw-scale-y: 1;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 * {
     margin: 0;
     padding: 0;

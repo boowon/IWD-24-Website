@@ -40,8 +40,8 @@ function App() {
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
            <About></About>
-           <Schedule></Schedule>
-           {/*<FAQ></FAQ>--->*/}
+           {/*<Schedule></Schedule>*/}
+           <FAQ></FAQ>
            <Quiz></Quiz>
            <Register></Register>  
         </div>

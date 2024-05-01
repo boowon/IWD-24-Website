@@ -7,20 +7,20 @@ import linemob from '../assets/faq/linemob.svg';
 
 const Questlist = [
   {
-    question: "Who are Women tech makers?",
-    answer: 'are a group of smart, pretty, and kind-hearted girls'
+    question: "What’s IWD ?",
+    answer: "On March 8th, International Women's Day celebrates women's achievements in economics, politics, and society. 🎉 WTM Algiers, part of Women Techmakers, celebrates with coding workshops and inspiring talks, highlighting women's influence in tech and encouraging more to excel! 💫💻"
   },
   {
-    question: "What is the purpose of WTM?",
-    answer: 'To empower the role of girls in tech and to provide them with the necessary resources to succeed'
+    question: "What tracks will be covered at IWD 24? 🌟",
+    answer:"This year's edition aims to inspire the community to thrive and shape the future! 🚀💪 Explore conferences and panels discussing technology, innovation, and career paths, delving into the impact of cutting-edge technologies on the present and future. 🌐🔍"
   },
   {
-    question: "What are the benefits of joining WTM?",
-    answer: 'You will be able to connect with girls who share the same interests as you and you will be able to attend workshops and events'
+    question: "Is this event exclusively for women?👩‍💻🚫",
+    answer: "Absolutely not! This event is open to everyone, regardless of gender. We're all about embracing diversity and celebrating technology together! Come join us and share your passion. 😊🌟"
   },
   {
-    question: "What is the future of WTM?",
-    answer: 'The future of WTM is bright and promising'
+    question: "Do I have to be a developer to attend? ",
+    answer: "Nope, you don't need to be a developer or have a background in computer science to attend. If you're curious about technology and eager to learn more, you're more than welcome to join us! See you there! 🚀🎉"
   }
 ];
 
@@ -57,17 +57,17 @@ function FAQ() {
       <img src={leaf} alt="leaf" className="lg:block hidden absolute top-0 right-0" />
       <img src={line1} alt="line1" className="lg:block hidden absolute bottom-[5%] -left-[20%] w-1/2 h-1/2" />
       <img src={line2} alt="line2" className="lg:block hidden absolute bottom-0 -right-[5%] w-1/2 h-1/2" />
-      <div className='w-[75%] h-[73%] rounded-2xl absolute self-center lg:bg-[#00E09E] lg:shadow-lg shadow-slate-500 flex flex-col justify-evenly '>
+      <div className='w-[90%] gap-4  lg:w-[78%] lg:h-[73%] rounded-3xl overflow-hidden absolute self-center lg:bg-[#00E09E] lg:bg-opacity-60 lg:shadow-lg p-2 lg:p-10 shadow-slate-500 flex flex-col justify-evenly '>
         <h1 className='text-xl lg:text-4xl text-center font-bold'>Frequently Asked Questions</h1>
           <div className='flex flex-col justify-center'>
             {Questlist.map((quest) => (
-              <div key={quest.question} className='bg-white mb-2 mx-4 rounded-lg shadow-sm shadow-slate-400'>
-                <div className='flex justify-between align-middle px-1 lg:px-3 py-1 lg:py-2'>
-                  <h1 className='text-sm lg:text-xl font-bold flex-grow'>{quest.question}</h1>
+              <div key={quest.question} className='bg-white mb-2 mx-4 rounded-xl shadow-sm shadow-slate-400'>
+                <div className='flex justify-between items-center align-middle px-1 lg:px-3 py-1 lg:py-2'>
+                  <h1 className='text-sm lg:text-xl font-medium flex-grow'>{quest.question}</h1>
                   <svg
                     onClick={() => toggleAnswer(quest.question)}
                     xmlns='http://www.w3.org/2000/svg'
-                    className={`lg:h-8 lg:w-8  h-4 w-4 cursor-pointer rounded-full transform transition-transform duration-300 mr-2 ${getRotation(
+                    className={`lg:h-8 lg:w-8  h-4 w-4 cursor-pointer rounded-full transform p-1 transition-transform duration-300 mr-2 ${getRotation(
                       quest.question
                     )}`}
                     style={{ backgroundColor: '#2480F0' }}
@@ -82,10 +82,10 @@ function FAQ() {
                     />
                   </svg>
                 </div>
-                <div className='flex flex-col justify-center items-center'>
-                  <hr style={{ display: showAnswers[quest.question] ? 'block' : 'none' }} className='border-t-2 border-black w-2/3' />
+                <div className='flex flex-col pl-3'>
+                  <hr style={{ display: showAnswers[quest.question] ? 'block' : 'none' }} className='border-t-1 border-black opacity-40 w-3/4' />
                 </div>
-                <p className='px-3 pt-2 text-xs lg:text-lg' style={{ display: showAnswers[quest.question] ? 'block' : 'none' }}>{quest.answer}</p>
+                <p className='p-4 text-xs lg:text-lg' style={{ display: showAnswers[quest.question] ? 'block' : 'none' }}>{quest.answer}</p>
               </div>
             ))}
         </div>
