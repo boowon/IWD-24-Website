@@ -77,9 +77,9 @@ function Quiz() {
         <p className='lg:hidden block absolute text-center  bottom-[16%] left-[12%] '>{currentQuestionIndex+1}/{QuizList.length} Questions</p>
         <QuestionProgress current={currentQuestionIndex + 1} total={QuizList.length} />
       </div>
-      <div className='absolute opacity-60 z-301 bottom-[13%] overflow-hidden border-[#C4E7FF] border-2 bg-white lg:w-[calc(100vw/1.7)] h-2/3 rounded-t-lg rounded-b-3xl'></div>
-      <div className='absolute opacity-90 z-300 bottom-[15%] overflow-hidden  border-[#C4E7FF] border-2 bg-white lg:w-[calc(100vw/1.56)] h-2/3 rounded-t-lg rounded-b-3xl'></div>
-      <div className="lg:relative absolute top-4 lg:top-0 flex content-center justify-center items-center bg-white lg:mx-0 mx-7 border-[#C4E7FF] border-2 w-4/5 lg:w-[calc(100vw/1.5)] h-3/4 lg:h-2/3 rounded-t-lg rounded-b-3xl shadow-green drop-shadow-2xl">
+      <div className='absolute opacity-60 z-301 bottom-[13%] overflow-hidden border-[#C4E7FF] border-2 bg-white lg:w-[calc(100vw/1.7)] h-2/3 rounded-3xl'></div>
+      <div className='absolute opacity-90 z-300 bottom-[15%] overflow-hidden  border-[#C4E7FF] border-2 bg-white lg:w-[calc(100vw/1.56)] h-2/3 rounded-3xl'></div>
+      <div className="lg:relative absolute top-4 lg:top-0 flex content-center justify-center items-center bg-white lg:mx-0 mx-7 border-[#C4E7FF] border-2 w-4/5 lg:w-[calc(100vw/1.5)] h-3/4 lg:h-2/3  rounded-3xl shadow-green drop-shadow-2xl">
         <img src={squares} alt="" className="lg:-scale-x-100 overflow-hidden absolute lg:z-0 -z-10 -right-[0%]  lg:-left-[0] -bottom-[17%] lg:-bottom-[21%] h-[120%] lg:h-[130%]" />
         <img src={wtmlogo} className="lg:block hidden absolute z-0 top-6 right-8 w-[12%]"/>
         {

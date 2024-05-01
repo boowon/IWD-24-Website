@@ -28,10 +28,10 @@ function Navbar({activeSection}) {
         <nav className="flex absolute min-h-screen flex-col items-center py-8 content-evenly justify-center gap-4 bg-white" aria-label="mobile">
           <a href="#home" className={activeSection === 'home' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Home</a>
           <hr className='h-1 w-[60vw] border-gray-500'/>
-            {/*<a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>        
+            <a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>        
           <hr className='h-1 w-[60vw] border-gray-500'/>
         <a href="#faq" className={activeSection === 'faq' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>FAQ</a>
-          <hr className='h-1 w-[60vw] border-gray-500'/>*/}
+          <hr className='h-1 w-[60vw] border-gray-500'/>
           <a href="#quiz" className={activeSection === 'quiz' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>Quiz</a>
           <hr className='h-1 w-[60vw] border-gray-500'/>
           <a href="#register" className={activeSection === 'register' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>Register</a>      
@@ -48,11 +48,9 @@ function Navbar({activeSection}) {
             <div className="hidden lg:block">
               <div className="flex space-x-12">
                 <a href="#home" className={activeSection === 'home' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Home</a>
-                {/*<a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>
+                <a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>
                 <a href="#faq" className={activeSection === 'faq' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>FAQ</a>
-                */}
                 <a href="#quiz" className={activeSection === 'quiz' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>Quiz</a>
-
                 <a href="#register" className={activeSection === 'register' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>Register</a>
               </div>
             </div>
