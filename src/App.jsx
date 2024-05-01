@@ -6,6 +6,7 @@ import About from './Pages/About';
 import FAQ from './Pages/FAQ';
 import Quiz from './Pages/QUIZ';
 import Register from './Pages/REGISTER';
+import Talks from './Pages/Talks';
 
 function App() {
     const [activeSection, setActiveSection] = useState('quiz');
@@ -38,8 +39,9 @@ function App() {
         <div className='overflow-x-hidden w-screen'>
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
-           {/*<About></About>
-           <FAQ></FAQ>--->*/}
+           <About></About>
+           <Talks></Talks>
+           {/*<FAQ></FAQ>--->*/}
            <Quiz></Quiz>
            <Register></Register>  
         </div>

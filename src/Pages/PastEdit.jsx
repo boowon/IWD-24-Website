@@ -8,19 +8,19 @@ import "slick-carousel/slick/slick-theme.css"
 
 const data = [
   {
-   title : "lorem ipsum 1",
-   desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.",
-   pic : "/src/assets/pastEdit/img.svg"
+   title : "IWD 20",
+   desc : "In its third edition, IWD20 took place in March 2020 and was an absolute success. It was an opportunity for women interested in technology and development to meet, discuss and learn about innovation and new products through various conferences, workshops, and panels. However, the success of this edition is due to the Ideathon, in which they learned about an important subject “Women’s online safety”, and brought together brilliant ideas to make the women's experience using the internet safer and more comfortable.",
+   pic : "/src/assets/pastEdit/img1.png"
   },
   {
-    title : "lorem ipsum 2",
-    desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.",
-    pic : "/src/assets/pastEdit/img.svg"
+    title : "IWD 21",
+    desc : 'For its fourth edition, Women Techmakers Algiers has brought an innovative touch to the IWD 2021, whose duration has been for the first time spread over a week full of intriguing talks. In addition to a fruitful weekend, marked by a set of in-person workshops, aiming to give a new vision on contemporary technologies. It was a golden opportunity to meet, debate on different subjects, and acquire the "Courage to Create" new memories, skills, and connection.',
+    pic : "/src/assets/pastEdit/img2.png"
   },
   {
-    title : "lorem ipsum 3",
-    desc : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio.          Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, laboriosam excepturi quas minima accusantium neque itaque iste soluta rem voluptates aperiam vel animi expedita sit ad ea illum, totam optio. ",
-    pic : "/src/assets/pastEdit/img.svg"
+    title : "IWD 22",
+    desc : "For its fifth edition and during two weekends, Women Techmackers Algiers celebrated women in tech and STEM in general for their contributions and achievement under the theme “Progress not Perfection “. The first weekend we had the chance to hold incredible talks and during the second weekend an impressive hackathon holding the theme of 'Striving for Well-being' we were able to witness some excellent work done by the brilliant teams.",
+    pic : "/src/assets/pastEdit/img3.png"
   },
 
 ];
