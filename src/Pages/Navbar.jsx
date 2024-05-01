@@ -30,7 +30,7 @@ function Navbar({activeSection}) {
           <hr className='h-1 w-[60vw] border-gray-500'/>
           <a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>        
           <hr className='h-1 w-[60vw] border-gray-500'/>
-          <a href="#talks" className={activeSection === 'talks' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Agenda</a>
+          <a href="#agenda" className={activeSection === 'agenda' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Agenda</a>
           <hr className='h-1 w-[60vw] border-gray-500'/>
         {/*<a href="#faq" className={activeSection === 'faq' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>FAQ</a>
           <hr className='h-1 w-[60vw] border-gray-500'/>*/}
@@ -51,7 +51,7 @@ function Navbar({activeSection}) {
               <div className="flex space-x-12">
                 <a href="#home" className={activeSection === 'home' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Home</a>
                 <a href="#about" className={activeSection === 'about' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>About</a>
-                <a href="#talks" className={activeSection === 'talks' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Agenda</a>
+                <a href="#agenda" className={activeSection === 'agenda' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'} >Agenda</a>
 
                 {/*
                 <a href="#faq" className={activeSection === 'faq' ? 'text-green hover:text-light-green' : 'text-blue hover:text-light-blue'}>FAQ</a>

@@ -22,7 +22,11 @@ const data = [
     desc : "For its fifth edition and during two weekends, Women Techmackers Algiers celebrated women in tech and STEM in general for their contributions and achievement under the theme “Progress not Perfection “. The first weekend we had the chance to hold incredible talks and during the second weekend an impressive hackathon holding the theme of 'Striving for Well-being' we were able to witness some excellent work done by the brilliant teams.",
     pic : "/src/assets/pastEdit/img3.png"
   },
-
+  {
+    title : "IWD 23",
+    desc : "For its sixth edition,",
+    pic : "/src/assets/pastEdit/img4.jpg"
+  }
 ];
 
 

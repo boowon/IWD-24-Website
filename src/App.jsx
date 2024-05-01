@@ -6,7 +6,7 @@ import About from './Pages/About';
 import FAQ from './Pages/FAQ';
 import Quiz from './Pages/QUIZ';
 import Register from './Pages/REGISTER';
-import Talks from './Pages/Talks';
+import Schedule from './Pages/Schedule';
 
 function App() {
     const [activeSection, setActiveSection] = useState('quiz');
@@ -40,7 +40,7 @@ function App() {
            <Navbar activeSection={activeSection}></Navbar>
            <Home></Home>
            <About></About>
-           <Talks></Talks>
+           <Schedule></Schedule>
            {/*<FAQ></FAQ>--->*/}
            <Quiz></Quiz>
            <Register></Register>  
