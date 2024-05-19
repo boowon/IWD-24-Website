@@ -49,7 +49,6 @@ const list_of_qst = [
         ],
         CorrectAnswer: "Stack"
     },
-
     {
         Question: "What does the acronym SQL stand for?",
         Answers: [
@@ -60,7 +59,6 @@ const list_of_qst = [
         ],
         CorrectAnswer: "Structured Query Language"
     },
-
     {
         Question: "In binary, what does the number 1010 represent in decimal?",
         Answers: [
@@ -71,8 +69,6 @@ const list_of_qst = [
         ],
         CorrectAnswer: "10"
     },
-
-
     {
         Question: "What does the acronym HTTP stand for?",
         Answers: [
@@ -151,7 +147,7 @@ const list_of_qst = [
             'Software as a Solution (SaaS)',
             'Data as a Service (DaaS)'
         ],
-        CorrectAnswer: "Data as a Service (DaaS)"
+        CorrectAnswer: "Software as a Solution (SaaS)"
     },
     {
         Question: "Which of the following is a valid IP address format?",
@@ -163,7 +159,6 @@ const list_of_qst = [
         ],
         CorrectAnswer: "192.168.0.1"
     },
-
     {
         Question: "Which of the following is a valid CSS selector?",
         Answers: [
@@ -174,7 +169,6 @@ const list_of_qst = [
         ],
         CorrectAnswer: ".myElement {}"
     },
-
     {
         Question: "Which of the following is NOT a valid data type in Python?",
         Answers: [
@@ -204,7 +198,87 @@ const list_of_qst = [
             'Malware'
         ],
         CorrectAnswer: "Exploit"
+    },
+    {
+        Question: "Which of the following is NOT a feature of object-oriented programming?",
+        Answers: [
+            'Encapsulation',
+            'Polymorphism',
+            'Inheritance',
+            'Compilation'
+        ],
+        CorrectAnswer: "Compilation"
+    },
+    {
+        Question: "What does the acronym VPN stand for?",
+        Answers: [
+            'Virtual Private Network',
+            'Visual Private Network',
+            'Virtual Public Network',
+            'Visual Public Network'
+        ],
+        CorrectAnswer: "Virtual Private Network"
+    },
+    {
+        Question: "What is the primary purpose of an SSL certificate?",
+        Answers: [
+            'To encrypt data between the client and server',
+            'To manage server-side sessions',
+            'To optimize web page load times',
+            'To handle client-side scripting'
+        ],
+        CorrectAnswer: "To encrypt data between the client and server"
+    },
+    {
+        Question: "Which of the following is a common hashing algorithm?",
+        Answers: [
+            'AES',
+            'RSA',
+            'SHA-256',
+            'DES'
+        ],
+        CorrectAnswer: "SHA-256"
+    },
+    {
+        Question: "Which protocol is used to send email?",
+        Answers: [
+            'HTTP',
+            'FTP',
+            'SMTP',
+            'SNMP'
+        ],
+        CorrectAnswer: "SMTP"
+    },
+    {
+        Question: "What does the acronym RAM stand for?",
+        Answers: [
+            'Readily Accessible Memory',
+            'Random Access Memory',
+            'Rapid Application Memory',
+            'Read-Only Access Memory'
+        ],
+        CorrectAnswer: "Random Access Memory"
+    },
+    {
+        Question: "Which of the following is an example of a front-end JavaScript framework?",
+        Answers: [
+            'Node.js',
+            'Django',
+            'React',
+            'Flask'
+        ],
+        CorrectAnswer: "React"
+    },
+    {
+        Question: "Which command is used to change the current directory in a Unix-based system?",
+        Answers: [
+            'cd',
+            'ls',
+            'mkdir',
+            'rm'
+        ],
+        CorrectAnswer: "cd"
     }
 ];
 
-export default list_of_qst
+export default list_of_qst;

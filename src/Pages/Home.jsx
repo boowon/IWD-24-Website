@@ -11,7 +11,7 @@ import {motion} from 'framer-motion'
 import CountdownTimer from './Countdown.timer'
 
 export default function Home() {
-        const iwdDay = new Date(Date.UTC(2024, 4, 4, 15));
+        const iwdDay = new Date(Date.UTC(2024, 4, 24, 15));
 
   return (
     <div id='home' className=' overflow-y-hidden w-screen md:pt-[100px] flex flex-col lg:gap-9 overflow-hidden font-montserrat justify-stretch relative'>

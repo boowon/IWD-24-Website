@@ -7,7 +7,7 @@ import background from "/background.svg";
 import CountdownTimer from "./Countdown.timer";
 
 export default function Register() {
-  const iwdDay = new Date(Date.UTC(2024, 4, 4, 15));
+  const iwdDay = new Date(Date.UTC(2024, 4, 24, 15));
 
   return (
     <div id="register" className="overflow-hidden w-screen flex flex-col justify-end font-montserrat">
